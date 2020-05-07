@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ទំនាក់ទំនង - Sabay News</title>
+  <link rel="SHORTCUT ICON" href="./img/favicon.ico" />
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="./css/font-awesome.min.css" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/custom_style.css" />
+  <link rel="stylesheet" href="./css/custom.css" />
+  <link rel="stylesheet" href="./css/block_cate.css" />
+  <link rel="stylesheet" href="./css/colors.css" />
+  <link rel="stylesheet" href="./css/align-items.css" />
+  <link rel="stylesheet" href="./css/lightslider.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+
+<body>
+  <!--  Header -->
+  <div class="container-fluid">
+    <div class="row" style="margin: 0px -15px;">
+      <div class="col-md-12 box-h-200 col-xs-12 bg-black">
+        <div class="row">
+          <div class="col-md-4 col-xs-12 align centered">
+            <div class="box-logo">
+              <img src="./img/logo.png" alt="" class="img-responsive" />
+            </div>
+          </div>
+          <div class="col-md-8 hidden-xs hidden-sm">
+            <div class="box-ads align centered">
+              <a href="#">
+                <img src="./img/ads_photo.jpg" alt="" class="img-responsive" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Header -->
+
+  <!--  Navbar -->
+  <nav id="navbar-fixed-top" class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="container">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav menu-bar">
+            <li>
+              <a href="index.html">
+                <i class="fa fa-home fa-lg" aria-hidden="true"></i>
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li>
+              <a href="./topics/technology/index.html">បច្ចេកវិទ្យា</a>
+            </li>
+            <li>
+              <a href="./topics/entertaintment/index.html">កម្សាន្ត</a>
+            </li>
+            <li>
+              <a href="./topics/sport/index.html">កីឡា</a>
+            </li>
+            <li>
+              <a href="./topics/life/index.html">ជីវិតនិងសង្គម</a>
+            </li>
+            <li class="active">
+              <a href="contactus.html">ទំនាក់ទំនង</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right menu-bar">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false" id="txtLang"><i class="fa fa-language" aria-hidden="true"></i>
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">អង់គ្លេស</a>
+                </li>
+                <li>
+                  <a href="#">ខ្មែរ</a>
+                </li>
+              </ul>
+            </li>
+            <li data-toggle="modal" data-target="#modalSignin">
+              <a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Navbar Collapse -->
+    </div>
+    <!-- End Container Fluid -->
+  </nav>
+  <!-- End Navbar -->
+
+  <br />
+
+  <div class="container">
+    <div class="row align centered">
+      <div class="col-md-6">
+
+        <form class="form-horizontal">
+
+          <div class="row">
+            <div class="col-sm-12  align centered">
+              <img src="./img/footer-logo.png" alt="Logo">
+            </div>
+          </div>
+
+          <br /><br />
+
+          <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">ឈ្មោះ</label>
+            <div class="col-sm-10">
+              <input type="name" class="form-control" id="name" placeholder="ឈ្មោះ">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">អុីមែល</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="អុីមែល">
+            </div>
+          </div>
+          <div class="form-group">
+
+            <label for="msg" class="col-sm-2 control-label">យោបល</label>
+            <div class="col-sm-10">
+              <textarea class="form-control" rows="3" id="msg" placeholder="យោបល"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-default">ផ្ញើរ</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <br />
+  </br /><br />
+
+  <!-- Footer Block -->
+  <div class="container-fluid">
+    <div class="row" style="margin: 0px -15px;">
+      <div class="col-md-12 bg-grey-900">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="sm-footer">
+                <div class="col-md-4">
+                  <img src="./img/footer-logo.png" />
+                  <br />
+                  <h5 class="sm-footer-text">
+                    © រក្សា​សិទ្ធិ​គ្រប់​យ៉ាង​ដោយ​ Sabay ឆ្នាំ​២០២០
+                  </h5>
+                  <p class="sm-footer-text-p">
+                    <b>អាសយដ្ឋាន</b> <br />អគារ​លេខ ៣០៨ មហាវិថីព្រះមុន្នីវង្ស
+                    សង្កាត់បឹងរាំង ខណ្ឌដូនពេញ
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <h4 class="sm-footer-text-h">អំពីយើង</h4>
+                  <h5 class="sm-footer-text-p">
+                    Sabay Digital Corporation ជា​ក្រុមហ៊ុន​ព័ត៌មាន​ឌីជីថល
+                    និង​កម្សាន្ត​ឈាន​មុខ​គេ​នៅ​កម្ពុជា។ ព័ត៌មាន​បន្ថែម
+                    ផលិត​ផល​ និង​ សេវាកម្ម របស់ Sabay
+                  </h5>
+                  <a href="#"><img class="box-sy" src="./img/s_3.png" /></a>
+                  <a href="#"><img class="box-sy" src="./img/s_1.jpg" /></a>
+                  <a href="#"><img class="box-sy" src="./img/s_2.png" /></a>
+                  <a href="#"><img class="box-sy" src="./img/s_4.png" /></a>
+                  <a href="#"><img class="box-sy" src="./img/s_5.png" /></a>
+                </div>
+                <div class="col-md-4">
+                  <h4 class="sm-footer-text-h">ជួបគ្នានៅបណ្តាញសង្គម</h4>
+                  <a href="#"><i class="box-social fa fa-facebook"></i></a>
+                  <a href="#"><i class="box-social fa fa-twitter"></i></a>
+                  <a href="#"><i class="box-social fa fa-instagram"></i></a>
+                  <a href="#"><i class="box-social fa fa-youtube"></i></a>
+                  <br />
+                  <h5 class="sm-footer-text">ទំនាក់ទំនង</h5>
+                  <p class="sm-footer-text-p">
+                    info@sabay.com <br />023 228 000
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Footer -->
+  <!-- JQuery First, then Bootstrap JS -->
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

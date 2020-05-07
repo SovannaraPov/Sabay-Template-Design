@@ -1,0 +1,306 @@
+/* Custom Style */
+.content​​ {
+  padding: 0 20px;
+}
+
+.block-cate-tech {
+  margin-bottom: 40px;
+}
+
+.img-responsive {
+  margin: auto;
+}
+
+/* Top Feature Posts */
+/* features1 */
+.features1 {
+  width: 100%;
+  height: 250px;
+  background: grey;
+  float: left;
+  background: url(../topics/technology/img/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.features1:hover .bg-rgba {
+  width: 100%;
+  height: 250px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.features1:hover .text {
+  top: 0px;
+}
+
+.features1:hover .text h3 {
+  color: #fa1939;
+}
+
+.features1 .text {
+  margin-top: -55px;
+  /* background: purple; */
+  position: absolute;
+  box-sizing: border-box;
+  transition: 1s;
+}
+
+.text h3 {
+  font-family: Khmer OS Battambang;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.text p {
+  font-family: Khmer OS Battambang;
+  font-size: 14px;
+  color: white;
+}
+
+.feature-post1 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.features1 .box-title {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #4390f8;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+
+/* features2 */
+.features2 {
+  width: 100%;
+  height: 250px;
+  background: grey;
+  float: left;
+  background: url(../topics/life/img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.features2:hover .bg-rgba {
+  width: 100%;
+  height: 250px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.features2:hover .text {
+  top: 0px;
+}
+
+.features2:hover .text h3 {
+  color: #fa1939;
+}
+
+.features2 .text {
+  margin-top: -55px;
+  /* background: purple; */
+  position: absolute;
+  box-sizing: border-box;
+  transition: 1s;
+}
+
+.text h3 {
+  font-family: Khmer OS Battambang;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.text p {
+  font-family: Khmer OS Battambang;
+  font-size: 14px;
+  color: white;
+}
+
+.feature-post2 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.features2 .box-title {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #4390f8;
+  color: white;
+  padding: 10px;
+  width: 130px;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+
+/* features3 */
+.features3 {
+  width: 100%;
+  height: 250px;
+  background: grey;
+  float: left;
+  background: url(../topics/sport/img/1/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.features3:hover .bg-rgba {
+  width: 100%;
+  height: 250px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.features3:hover .text {
+  top: 0px;
+}
+
+.features3:hover .text h3 {
+  color: #fa1939;
+}
+
+.features3 .text {
+  margin-top: -55px;
+  /* background: purple; */
+  position: absolute;
+  box-sizing: border-box;
+  transition: 1s;
+}
+
+.text h3 {
+  font-family: Khmer OS Battambang;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.text p {
+  font-family: Khmer OS Battambang;
+  font-size: 14px;
+  color: white;
+}
+
+.feature-post1 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.features3 .box-title {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #4390f8;
+  color: white;
+  padding: 10px;
+  width: 60px;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+
+/* features4 */
+.features4 {
+  width: 100%;
+  height: 250px;
+  background: grey;
+  float: left;
+  background: url(../topics/life/img/12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.features4:hover .bg-rgba {
+  width: 100%;
+  height: 250px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.features4:hover .text {
+  top: 0;
+}
+
+.features4:hover .text h3 {
+  color: #fa1939;
+}
+
+.text {
+  margin-top: -55px;
+  /* background: purple; */
+  position: absolute;
+  padding: 120px 20px;
+  top: 70px;
+  box-sizing: border-box;
+  transition: 1s;
+}
+
+.text h3 {
+  font-family: Khmer OS Battambang;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+.text p {
+  font-family: Khmer OS Battambang;
+  font-size: 14px;
+  color: white;
+}
+
+.feature-post2 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.features4 .box-title {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #4390f8;
+  color: white;
+  padding: 10px;
+  width: 130px;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+
+.category-title {
+  width: 100%;
+  border-top: 8px solid #fa1939;
+}
+
+.block-card .box-title {
+  margin-top: 20px;
+  background-color: #fa1939;
+  padding: 10px;
+  width: 200px;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+
+.box-title a {
+  font-family: Koulen;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding-left: 5px;
+}
